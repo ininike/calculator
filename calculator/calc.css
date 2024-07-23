@@ -1,0 +1,90 @@
+body{
+    margin:auto;
+}
+.window{
+    width: 100%;
+    display: flex;
+    height: 100vh;
+}
+.outerb{
+    width: 300px;
+    margin:auto;
+    height: 450px;
+    display: flex;
+    border: 2px solid black;
+} 
+
+.innerb{
+    width: 95%;
+    height: 97%;
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+
+.screen{
+    height: auto;
+    flex:1;
+    border: 1.5px solid black;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: aliceblue;
+}
+
+.buttonb{
+    flex: 3;
+    border: 1.5px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    flex:1;
+    flex-wrap: wrap;
+}
+
+.button{
+    cursor: pointer;
+    flex: 1;
+    text-align: center;
+}
+
+.button:hover{
+    background-color: antiquewhite;
+}
+
+
+#screen{
+    width: 97%;
+    height: 40%;
+    justify-content: flex-start;
+    text-align: right;
+}
+
+input{
+    border: none;
+}
+
+#screen{
+    font-size: 40px;
+}
+
+.button{
+    background-color: gray;
+}
+
+#evaluate,#AC,#neg,#delete{
+    background-color: bisque;
+
+}
+#evaluate:hover,#AC:hover,#neg:hover,#delete:hover{
+    background-color: rgba(31, 30, 30, 0.708);   
+}
+
+
+
